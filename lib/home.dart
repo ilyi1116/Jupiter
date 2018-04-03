@@ -33,8 +33,16 @@ class HomePage extends StatelessWidget {
       ),
     );
 
+    final heading = new Padding(
+      padding: new EdgeInsets.all(8.0),
+      child: new Text(
+        '',
+        style: new TextStyle(fontSize: 16.0, color: Colors.white),
+      )
+    );
+
     final body = new Container(
-      width: 500.0,
+      width: MediaQuery.of(context).size.width,
       padding: new EdgeInsets.all(28.0),
       decoration: new BoxDecoration(
         gradient: new LinearGradient(colors: [
