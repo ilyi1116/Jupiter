@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'login.dart';
-import 'home.dart';
+import 'screens/HomeScreen.dart';
 
 import 'package:flutter/material.dart';
 
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Othello',
+      title: 'Jupiter',
       theme: new ThemeData(
         fontFamily: 'Nunito',
         primarySwatch: Colors.blue,
