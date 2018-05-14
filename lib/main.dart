@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Othello',
+      title: 'Jupiter',
       theme: new ThemeData(
         fontFamily: 'Nunito',
         primarySwatch: Colors.blue,
